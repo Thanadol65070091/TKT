@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!--register.html (Sign Up)-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style-register.css">
+    <script src="register.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Concert</a></li>
+                <li><a>My Booking</a></li>
+                <li><a><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a><i class="far fa-user-circle"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="vertical-line left"></div>
+    <div class="vertical-line right"></div>
+
+    <div class="container">
+        <form class="registration-form" id="registration-form">
+            <h1>𝄩 Sign Up 𝄩</h1>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="First Name">
+            
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required placeholder="Last Name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Email">
+
+            <label for="username">Username</label>  
+            <input type="text" id="username" name="username" required placeholder="Username">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Password">
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm Password">
+
+            <div class="select-container">
+                <label for="role">Role</label>
+                <select id="role" name="role">
+                    <option value="admin">Admin</option>
+                    <option value="user">Customer</option>
+                </select>
+            </div>
+            
+            <button type="button" id="signup-button" class="submit-button">Sign Up</button>
+            <div id="password-error" class="error-message"></div>
+
+
+            <div class="already-have-account">
+                <p>Already have an account? <a href="signin.html">Sign in</a></p>
+            </div>
+            <div id="password-error" class="error-message"></div>
+        </form>
+    </div>
+</body>
+</html>

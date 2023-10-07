@@ -1,0 +1,52 @@
+<!--concertdescription.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Description</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style-concertdescription.css">
+    <script src="concertdescription.js"></script>
+
+</head>
+<body>
+    <a class="back-arrow" href="home.html"><i class="fas fa-arrow-left"></i></a>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="concert.html">Concert</a>
+            <a href="#">My Booking</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="far fa-user-circle"></i></a>
+        </nav>
+    </header>
+    <div class="container" style="padding-top: 300px;">
+        <img id="concert-image" src="istockphoto-1255230725-612x612.jpg" alt="Concert Image">
+        <h1 id="concert-name">𝄩 Concert Name 𝄩</h1>
+
+        <div id="ticket-price-details">
+            <label for="ticket-price-select">Ticket Price :</label>
+            <select id="ticket-price-select">
+                <option value="price1">Price 1</option>
+                <option value="price2">Price 2</option>
+            </select>
+        </div>
+
+        <div id="ticket-amount-details">
+            <label for="ticket-amount-select">Ticket Amount :</label>
+            <select id="ticket-amount-select">
+                <option value="amount1">1</option>
+                <option value="amount2">2</option>
+            </select>
+        </div>
+
+        <button id="buy-ticket-button" onclick="buyTicket()">Buy</button>
+        <button id="add-button">Add</button>
+
+        <div class="description" id="concert-description">
+            <!-- Description content goes here -->
+        </div>
+    </div>
+</body>
+</html>
