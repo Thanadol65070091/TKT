@@ -71,14 +71,14 @@ p {
 
 #ticket-price-details {
     position: absolute;
-    top: 135px;
+    top: 150px;
     right: 420px;
     margin: 25px;
 }
 
 #ticket-amount-details {
     position: absolute;
-    top: 175px;
+    top: 190px;
     right: 435px;
     margin: 25px;
 }
@@ -93,30 +93,13 @@ p {
     font-size: 16px;
     cursor: pointer;
     right: 435px;
-    top: 250px;
+    top: 260px;
 }
 
 #buy-ticket-button:hover {
     background-color: #000000;
 }
 
-
-#add-button {
-    position: absolute;
-    background-color:#007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 6px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    right: 530px;
-    top: 250px;
-}
-
-#add-button:hover {
-    background-color: #0056b3;
-}
 
 .back-arrow {
     font-size: 30px;
@@ -126,3 +109,17 @@ p {
     top: 60px;
     left: 200px;
 }
+
+
+#concert-date {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: left;
+    color: #000000;
+}
+
+
+#date-placeholder {
+    color: rgb(155, 155, 155);
+}
+
