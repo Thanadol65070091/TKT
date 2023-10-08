@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var signinButton = document.getElementById('signin-button');
 
     function redirectToHome() {
-        var email = document.getElementById('email').value;
+        var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
 
-        if (email && password) {
+        if (username && password) {
             window.location.href = 'home.html';
         } else {
             alert('Please fill in both email and password.');
